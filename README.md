@@ -8,6 +8,7 @@ Install pixar usd properly, follow [the official build instructions](https://git
 Add environment variable. Example in Linux with zsh:
 ```shell
 echo "export USD_INSTALL_ROOT=/usr/local/USD" >> ~/.zshrc
+source ~/.zshrc
 ```
 `/usr/local/USD` is my USD install directory, make sure it matches yours.
 
